@@ -1,7 +1,6 @@
 'use client';
 import { useState } from "react";
 import { validateForm } from "./utils/validation";
-import { Message } from 'primereact/message';
 import { submitFeedback } from "./utils/mockApi";
 import FeedbackForm from "./components/feedback/FeedbackForm";
 import SummaryScreen from "./components/summary/Summary";
