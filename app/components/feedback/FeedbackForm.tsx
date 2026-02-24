@@ -143,7 +143,7 @@ export default function FeedbackForm({ formData, setFormData, errors, onSubmit,l
                             name="message"
                             value={formData.message}
                             placeholder="Write your feedback..."
-                            className="w-full mt-2 border border-slate-300 rounded-lg px-3 py-2.5 focus:ring-2 focus:ring-indigo-400 outline-none resize-none"
+                            className="w-full mt-2 border border-slate-300 rounded-lg px-3 py-2.5 focus:ring-2 focus:ring-indigo-200 outline-none resize-none"
                             onChange={handleInputChange}
                         />
                     </div>
