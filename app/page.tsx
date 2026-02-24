@@ -42,12 +42,10 @@ export default function App() {
   };
   
   return(
-    <div className="bg-slate-100 w-full min-h-screen ">
-    <div className="flex  items-center justify-center p-4 ">
+    <div className="bg-slate-100 min-h-screen flex items-center justify-center ">
       {submitted?(
       <SummaryScreen formData={formData}/>):(
       <FeedbackForm formData={formData} setFormData={setFormData} errors={errors} onSubmit={handleSubmit} loading={loading}  />)}
-    </div>
     </div>
   )
 }

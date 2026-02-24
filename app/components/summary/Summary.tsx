@@ -1,6 +1,6 @@
 export default function SummaryScreen({ formData }: any) {
   return (
-    <div className="w-full max-w-3xl bg-white rounded-2xl shadow-xl p-8">
+    <div className="w-full max-w-2xl bg-white rounded-2xl shadow-xl p-8">
       <h2 className="text-2xl font-bold text-slate-800 mb-6">
         Feedback Summary
       </h2>
